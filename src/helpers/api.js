@@ -5,5 +5,5 @@ export const axiosClient  =  axios.create({
 })
   
 export const getAllArticles = () => {
-    return axiosClient.get(`/blogposts`)
+    return axiosClient.get(`/blogposts/`)
   }
